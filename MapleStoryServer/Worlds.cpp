@@ -22,7 +22,7 @@
 
 void Worlds::showWorld(PlayerLogin* player){
 	if(player->getStatus() != 4){
-		// hacking
+		
 		return;
 	}
 	World world;
